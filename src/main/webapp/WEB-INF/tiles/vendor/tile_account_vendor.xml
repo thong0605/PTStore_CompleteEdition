@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="vendor.login.index" extends="emptyTemplate">
+		<put-attribute name="vendor" value="/WEB-INF/views/vendor/account/login.jsp"></put-attribute>
+	</definition>
+	<definition name="vendor.register.index" extends="emptyTemplate">
+		<put-attribute name="vendor" value="/WEB-INF/views/vendor/account/register.jsp"></put-attribute>
+	</definition>
+	<definition name="vendor.accessDenied.index" extends="emptyTemplate">
+		<put-attribute name="vendor" value="/WEB-INF/views/vendor/account/accessDenied.jsp"></put-attribute>
+	</definition>
+	<definition name="vendor.changepw.index" extends="templateVendor">
+		<put-attribute name="contentvendor" value="/WEB-INF/views/vendor/account/changepw.jsp"></put-attribute>
+	</definition>
+	<definition name="vendor.profile.index" extends="templateVendor">
+		<put-attribute name="contentvendor" value="/WEB-INF/views/vendor/account/profile.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

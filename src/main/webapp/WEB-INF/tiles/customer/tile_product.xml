@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="product.list" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/product/list.jsp"></put-attribute>
+	</definition>
+	<definition name="product.detail" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/product/detail.jsp"></put-attribute>
+	</definition>
+	<definition name="product.compare" extends="mainTemplate">
+		<put-attribute name="content"
+	value="/WEB-INF/views/customer/product/compare.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

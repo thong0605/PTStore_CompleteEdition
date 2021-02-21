@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="mainTemplate" template="/WEB-INF/views/customer/templates/mainTemplate.jsp">
+		<put-attribute name="content" value=""></put-attribute>
+	</definition>
+	
+	<definition name="emptyTemplate" template="/WEB-INF/views/vendor/shared/emptyTemplate.jsp">
+		<put-attribute name="vendor" value=""></put-attribute>
+	</definition>
+	<definition name="templateVendor" template="/WEB-INF/views/vendor/shared/templateVendor.jsp">
+		<put-attribute name="contentvendor" value=""></put-attribute>
+	</definition>
+	
+	<definition name="AdminLoginTemplate"
+		template="/WEB-INF/views/admin/AdminLoginTemplate.jsp">
+		<put-attribute name="content" value=""></put-attribute>
+	</definition>
+	<definition name="admintemplate"
+		template="/WEB-INF/views/admin/admintemplate.jsp">
+		<put-attribute name="content" value=""></put-attribute>
+	</definition>
+	
+</tiles-definitions>

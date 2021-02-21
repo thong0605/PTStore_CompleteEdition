@@ -1,0 +1,71 @@
+.fa-check {
+    color: lawngreen !important;
+}
+
+.fa-times {
+    color: orangered !important;
+}
+
+.select-ace-padding {
+    padding-left: 0;
+}
+
+.item-record {
+    line-height: 50px;
+    vertical-align: middle !important;
+}
+
+
+.pagination1 {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+  margin-top: 10px;
+}
+.pagination1 li {
+  display: inline;
+  text-align: center;
+}
+.pagination1 a {
+  float: left !important;
+  display: block !important;
+  font-size: 14px !important;
+  text-decoration: none !important;
+  padding: 5px 12px !important;
+  color: #21a2a2 !important;
+  margin-left: -1px !important;
+  border: 1px solid transparent !important;
+  line-height: 1.5 !important;
+}
+.pagination1 a.active {
+  cursor: default;
+  color: #21a2a2 !important;
+}
+.pagination1 a:active {
+  outline: black !important;
+}
+
+.modal-1 li:first-child a {
+  -moz-border-radius: 6px 0 0 6px !important;
+  -webkit-border-radius: 6px !important;
+  border-radius: 6px 0 0 6px !important;
+}
+.modal-1 li:last-child a {
+  -moz-border-radius: 0 6px 6px 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 6px 6px 0 !important;
+}
+.modal-1 a {
+  border-color: #21a2a2 !important;
+  color: #21a2a2 !important;
+  background: #21a2a2 !important;
+}
+.modal-1 a:hover {
+  background: #21a2a2 !important;
+}
+.modal-1 a.active, .modal-1 a:active {
+  border-color: #4285F4 !important;
+  background: #4285F4 !important;
+  color: #21a2a2 !important;
+}
+

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="home.index" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/home/index.jsp"></put-attribute>
+	</definition>
+	<definition name="home.privacy" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/home/privacy.jsp"></put-attribute>
+	</definition>
+	<definition name="home.contact" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/home/contact.jsp"></put-attribute>
+	</definition>
+	<definition name="home.error" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/home/error.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="cart.index" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/cart/index.jsp"></put-attribute>
+	</definition>
+	<definition name="cart.checkout" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/cart/checkout.jsp"></put-attribute>
+	</definition>
+	<definition name="cart.success" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/cart/success.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

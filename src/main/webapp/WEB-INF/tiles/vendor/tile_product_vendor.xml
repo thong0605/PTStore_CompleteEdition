@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="vendor.product.index" extends="templateVendor">
+		<put-attribute name="contentvendor" value="/WEB-INF/views/vendor/product/index.jsp"></put-attribute>
+	</definition>
+	<definition name="vendor.create.index" extends="templateVendor">
+		<put-attribute name="contentvendor" value="/WEB-INF/views/vendor/product/create.jsp"></put-attribute>
+	</definition>
+	<definition name="vendor.edit.index" extends="templateVendor">
+		<put-attribute name="contentvendor" value="/WEB-INF/views/vendor/product/edit.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>

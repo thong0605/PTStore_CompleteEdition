@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+	<definition name="customer.login" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/account/login.jsp"></put-attribute>
+	</definition>
+	<definition name="customer.register" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/account/register.jsp"></put-attribute>
+	</definition>
+	<definition name="customer.profile" extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/account/profile.jsp"></put-attribute>
+	</definition>
+	<definition name="customer.password"
+		extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/account/password.jsp"></put-attribute>
+	</definition>
+	<definition name="customer.accessDenied"
+		extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/account/accessDenied.jsp"></put-attribute>
+	</definition>
+	<definition name="customer.vendorList"
+		extends="mainTemplate">
+		<put-attribute name="content"
+			value="/WEB-INF/views/customer/account/vendorList.jsp"></put-attribute>
+	</definition>
+</tiles-definitions>
